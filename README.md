@@ -16,7 +16,7 @@ If you create [Processor](https://github.com/textlint/textlint/blob/master/docs/
 
 ### `Syntax: Object`
 
-`Syntax` is constants value of Node type.
+`Syntax` is constants value of TxtNode type.
 
 ```js
 import {Syntax} from "textlint-ast-test";
