@@ -14,6 +14,20 @@ If you have created [Processor](https://github.com/textlint/textlint/blob/master
 
 ## Usage
 
+
+### `Syntax: Object`
+
+`Syntax` is constants value of TxtNode type.
+
+```js
+import {Syntax} from "textlint-ast-test";
+Syntax.Str; // "Str"
+```
+
+It is the same values of `ruleContext.Syntax` of textlint's rule.
+
+- [textlint/txtnode.md at master · textlint/textlint](https://github.com/textlint/textlint/blob/master/docs/txtnode.md#type "textlint/txtnode.md at master · textlint/textlint")
+
 ### `test(textlintAST): void`
 
 if the AST is invalid, then throw Error
@@ -31,6 +45,7 @@ test(AST);// if the AST is invalid, then throw Error
 
 isTxtAST(AST);// true or false
 ```
+
 ## Tests
 
     npm test

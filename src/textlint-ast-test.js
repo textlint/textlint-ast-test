@@ -1,7 +1,9 @@
 // LICENSE : MIT
 "use strict";
 const assert = require("assert");
+import Syntax from "./TxtNodeSyntax";
 import {test as UnistTest} from "./unist-test";
+export {Syntax};
 export function isTxtAST(node) {
     try {
         test(node);
