@@ -1,5 +1,7 @@
 # textlint-ast-test [![Build Status](https://travis-ci.org/textlint/textlint-ast-test.svg?branch=master)](https://travis-ci.org/textlint/textlint-ast-test)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/textlint/textlint-ast-test.svg)](https://greenkeeper.io/)
+
 Compliance tests for [textlint](https://github.com/textlint/textlint "textlint")'s AST(Abstract Syntax Tree).
 
 It check compliance of AST at minimum.
